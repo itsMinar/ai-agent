@@ -1,0 +1,35 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "ai-agent",
+    "ai",
+    "agent",
+    "openai"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsMinar/ai-agent.git"
+  },
+  "author": {
+    "name": "Minar Munshi",
+    "url": "https://github.com/itsMinar"
+  },
+  "bugs": {
+    "url": "https://github.com/itsMinar/ai-agent/issues"
+  },
+  "homepage": "https://github.com/itsMinar/ai-agent#readme",
+  "dependencies": {
+    "@openai/agents": "^0.3.3",
+    "dotenv": "^17.2.3",
+    "zod": "^3.25.76"
+  }
+}
