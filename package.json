@@ -29,6 +29,7 @@
   "homepage": "https://github.com/itsMinar/ai-agent#readme",
   "dependencies": {
     "@openai/agents": "^0.3.3",
+    "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "zod": "^3.25.76"
   }
